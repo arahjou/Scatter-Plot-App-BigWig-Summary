@@ -29,3 +29,19 @@ df = pd.DataFrame({'start': bins, 'end': [i+step for i in bins], 'average_signal
 # Save the table to a file
 df.to_csv("results.csv", index=False)
 ```
+## Changing codes:
+
+There are many places in the code that you can change it to make it more suitble for your data particularly minimum and maximum values.
+
+```{r }
+# Sliders for min and max values of inputs and color intensity
+            sliderInput("xmin", "X-axis Min", min = 0, max = 1, value = 0 , step = 0.01),
+            sliderInput("xmax", "X-axis Max", min = 0, max = 10, value = 10, step = 0.5),
+            sliderInput("ymin", "Y-axis Min", min = 0, max = 1, value = 0 , step = 0.01),
+            sliderInput("ymax", "Y-axis Max", min = 0, max = 10, value = 10 , step = 0.5),
+            sliderInput("colorIntensity", "Color Intensity", min = 0, max = 1, value = 0.5, step = 0.01),
+            sliderInput("colormin", "Color Min", min = 0, max = 1, value = 0 , step = 0.01),
+            sliderInput("colormax", "Color Max", min = 0, max = 10, value = 10 , step = 0.5)
+```
+
+## https://arahjou.shinyapps.io/Bigwig_scatter_plot/
