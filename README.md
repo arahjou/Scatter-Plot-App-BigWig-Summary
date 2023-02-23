@@ -8,6 +8,7 @@ A BigWig summary table is a type of table that provides a summary of the data co
 
 For example:
 ```{r }
+# In python
 import pyBigWig
 import pandas as pd
 
