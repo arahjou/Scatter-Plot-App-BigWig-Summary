@@ -44,4 +44,4 @@ There are many places in the code that you can change it to make it more suitble
             sliderInput("colormax", "Color Max", min = 0, max = 10, value = 10 , step = 0.5)
 ```
 
-## https://arahjou.shinyapps.io/Bigwig_scatter_plot/
+### https://arahjou.shinyapps.io/Bigwig_scatter_plot/
