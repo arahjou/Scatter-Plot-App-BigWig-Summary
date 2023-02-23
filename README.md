@@ -1,6 +1,6 @@
 # Scatter-Plot-App-BigWig-Summary
 
-At times, sharing data with biologist colleagues can be challenging. However, creating a Shiny app provides an excellent opportunity to empower them to explore the data independently, without being influenced by you. With a Shiny app, your colleagues can delve into the data, make their own discoveries, and draw their own conclusions. This not only promotes greater collaboration and understanding, but also helps to facilitate more meaningful and accurate analyses.
+Sharing high-throughput data with other colleagues can be challenging at times due to its complex nature.. However, creating a Shiny app provides an excellent opportunity to empower them to explore the data independently, without being influenced by you. With a Shiny app, your colleagues can delve into the data, make their own discoveries, and draw their own conclusions. This not only promotes greater collaboration and understanding, but also helps to facilitate more meaningful and accurate analyses.
 
 ## What is BigWig summary table
 
